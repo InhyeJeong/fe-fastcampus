@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import LectureItem from '../components/lecture/LectureItem'
+import { LectureItem } from '../components/lecture'
 
 describe('강의 아이템은', () => {
   it('썸네일을 가지고 있어야한다.', () => {

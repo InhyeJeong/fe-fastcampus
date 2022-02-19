@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import LectureGroup from '../components/lecture/LectureGroup'
+import { LectureGroup } from '../components/lecture'
 
 describe('강의 목록은', () => {
   it('제목을 가지고 있어야한다.', () => {
