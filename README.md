@@ -27,3 +27,11 @@ $ yarn dev
 $ yarn build
 $ yarn deploy
 ```
+
+## 테스트
+
+- Jest
+
+```
+$ yarn test
+```
