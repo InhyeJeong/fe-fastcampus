@@ -1,4 +1,4 @@
-const LectureItem = (): JSX.Element => {
+export const LectureItem = (): JSX.Element => {
   return (
     <div>
       <img src="" alt="초격차 패키지" />
@@ -10,5 +10,3 @@ const LectureItem = (): JSX.Element => {
     </div>
   )
 }
-
-export default LectureItem

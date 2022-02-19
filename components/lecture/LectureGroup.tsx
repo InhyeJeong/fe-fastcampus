@@ -1,6 +1,6 @@
-import LectureList from "./LectureList"
+import { LectureList } from "./LectureList"
 
-const LectureGroup = (): JSX.Element => {
+export const LectureGroup = (): JSX.Element => {
   return (
     <div title="lectureList">
       <span>Best</span>
@@ -9,5 +9,3 @@ const LectureGroup = (): JSX.Element => {
     </div>
   )
 }
-
-export default LectureGroup

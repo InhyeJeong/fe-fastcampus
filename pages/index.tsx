@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Banner from '@/components/Banner'
 import Menu from '@/components/Menu'
 import styles from '../styles/Home.module.css'
-import LectureGroup from '@/components/lecture/lectureGroup'
+import { LectureGroup } from '@/components/lecture'
 
 const Home: NextPage = () => {
   return (

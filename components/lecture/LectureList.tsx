@@ -1,11 +1,9 @@
-import LectureItem from "./LectureItem"
+import { LectureItem } from "./LectureItem"
 
-const LectureList = (): JSX.Element => {
+export const LectureList = (): JSX.Element => {
   return (
     <div>
       <LectureItem />
     </div>
   )
 }
-
-export default LectureList
